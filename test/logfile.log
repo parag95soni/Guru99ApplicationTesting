@@ -52,3 +52,12 @@
 2021-06-17 01:15:28,460 : INFO : test_ValidLogin : Password Used to Login ArugUsU
 2021-06-17 01:15:29,099 : INFO : getValidation : User or Password is not valid
 2021-06-17 01:15:29,099 : INFO : getValidation : User or Password is not valid
+2021-06-17 14:09:12,491 : INFO : test_ValidLogin : User ID Used to Login mngr333840
+2021-06-17 14:09:12,596 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-17 14:09:19,467 : INFO : getValidation : Guru99 Bank Manager HomePage
+2021-06-17 14:09:25,057 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-17 14:09:25,057 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-17 14:09:25,164 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-17 14:09:25,164 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-17 14:09:26,058 : INFO : getValidation : User or Password is not valid
+2021-06-17 14:09:26,058 : INFO : getValidation : User or Password is not valid

@@ -17,6 +17,7 @@ class LoginPage(BaseClass):
     uid = (By.CSS_SELECTOR, "input[name='uid']")
     paswd = (By.CSS_SELECTOR, "input[name='password']")
     loginbut = (By.CSS_SELECTOR, "input[name='btnLogin']")
+    mangerid = (By.XPATH, "//tr[@class='heading3']/td")
 
 
     def getUserID(self):
@@ -28,6 +29,9 @@ class LoginPage(BaseClass):
     def getLoginBut(self):
         return self.driver.find_element(*LoginPage.loginbut)
 
+    def getMangerID(self):
+        return self.driver.find_element(*LoginPage.mangerid)
+
     def getValidation(self):
         log = self.getLog()
         try:
@@ -37,4 +41,5 @@ class LoginPage(BaseClass):
             alert.accept()
         except NoAlertPresentException:
             assert "Guru99 Bank Manager HomePage" == self.driver.title
+            #assert "mngr333840" in LoginPage.getMangerID()
             log.info(self.driver.title)

@@ -1,7 +1,7 @@
 import pytest
 from selenium.common.exceptions import NoAlertPresentException
 
-from TestData.LoginPageData import LoginPageData
+from Test_Data.LoginPageData import LoginPageData
 from pageObject.LoginPage import LoginPage
 from utilities.baseClass import BaseClass
 
@@ -19,6 +19,6 @@ class TestLoginPage(BaseClass):
 
 
 
-    @pytest.fixture(params=LoginPageData.logindata)
+    @pytest.fixture(params=LoginPageData.test_logindata)
     def getData(self, request):
         return request.param
