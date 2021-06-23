@@ -4,6 +4,7 @@ from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.alert import Alert
 
+from test.conftest import driver
 from utilities.baseClass import BaseClass
 
 
@@ -29,8 +30,6 @@ class LoginPage(BaseClass):
     def getLoginBut(self):
         return self.driver.find_element(*LoginPage.loginbut)
 
-    def getMangerID(self):
-        return self.driver.find_element(*LoginPage.mangerid)
 
     def getValidation(self):
         log = self.getLog()
@@ -40,6 +39,6 @@ class LoginPage(BaseClass):
             log.info(alert.text)
             alert.accept()
         except NoAlertPresentException:
-            assert "Guru99 Bank Manager HomePage" == self.driver.title
-            #assert "mngr333840" in LoginPage.getMangerID()
+            assert "mngr333840" in self.driver.find_element_by_xpath("//tr[@class='heading3']/td").text
+            #assert "Guru99 Bank Manager HomePage" == self.driver.title
             log.info(self.driver.title)
