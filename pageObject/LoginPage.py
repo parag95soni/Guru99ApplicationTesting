@@ -40,5 +40,6 @@ class LoginPage(BaseClass):
             alert.accept()
         except NoAlertPresentException:
             assert "mngr333840" in self.driver.find_element_by_xpath("//tr[@class='heading3']/td").text
+            self.driver.get_screenshot_as_file("ManagerID.png")
             #assert "Guru99 Bank Manager HomePage" == self.driver.title
-            log.info(self.driver.title)
+            #log.info(self.driver.title)

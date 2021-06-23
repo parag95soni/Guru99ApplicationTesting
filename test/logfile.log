@@ -64,3 +64,29 @@
 2021-06-23 18:46:43,294 : INFO : test_ValidLogin : Password Used to Login ArugUsU
 2021-06-23 18:46:43,754 : INFO : getValidation : User or Password is not valid
 2021-06-23 18:46:43,754 : INFO : getValidation : User or Password is not valid
+2021-06-23 19:52:25,680 : INFO : test_ValidLogin : User ID Used to Login mngr333840
+2021-06-23 19:52:25,785 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:52:27,304 : INFO : getValidation : Guru99 Bank Manager HomePage
+2021-06-23 19:52:34,201 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-23 19:52:34,201 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-23 19:52:34,303 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:52:34,303 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:52:36,204 : INFO : getValidation : User or Password is not valid
+2021-06-23 19:52:36,204 : INFO : getValidation : User or Password is not valid
+2021-06-23 19:53:23,562 : INFO : test_ValidLogin : User ID Used to Login mngr333840
+2021-06-23 19:53:23,656 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:53:26,285 : INFO : getValidation : Guru99 Bank Manager HomePage
+2021-06-23 19:53:33,115 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-23 19:53:33,115 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-23 19:53:33,215 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:53:33,215 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:53:33,741 : INFO : getValidation : User or Password is not valid
+2021-06-23 19:53:33,741 : INFO : getValidation : User or Password is not valid
+2021-06-23 19:59:43,881 : INFO : test_ValidLogin : User ID Used to Login mngr333840
+2021-06-23 19:59:43,977 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:59:54,145 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-23 19:59:54,145 : INFO : test_ValidLogin : User ID Used to Login mngr333841
+2021-06-23 19:59:54,239 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:59:54,239 : INFO : test_ValidLogin : Password Used to Login ArugUsU
+2021-06-23 19:59:54,720 : INFO : getValidation : User or Password is not valid
+2021-06-23 19:59:54,720 : INFO : getValidation : User or Password is not valid
