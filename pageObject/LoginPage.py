@@ -1,14 +1,9 @@
 import time
 
-from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.alert import Alert
-
-from test.conftest import driver
-from utilities.baseClass import BaseClass
 
 
-class LoginPage(BaseClass):
+class LoginPage():
 
     def __init__(self, driver):
         self.driver = driver
@@ -30,16 +25,3 @@ class LoginPage(BaseClass):
     def getLoginBut(self):
         return self.driver.find_element(*LoginPage.loginbut)
 
-
-    def getValidation(self):
-        log = self.getLog()
-        try:
-            alert = Alert(self.driver)
-            assert "User or Password is not valid" == alert.text
-            log.info(alert.text)
-            alert.accept()
-        except NoAlertPresentException:
-            assert "mngr333840" in self.driver.find_element_by_xpath("//tr[@class='heading3']/td").text
-            self.driver.get_screenshot_as_file("ManagerID.png")
-            #assert "Guru99 Bank Manager HomePage" == self.driver.title
-            #log.info(self.driver.title)

@@ -15,7 +15,12 @@ class TestLoginPage(BaseClass):
         loginpage.getPaswd().send_keys(getData["password"])
         log.info("Password Used to Login " + getData["password"])
         loginpage.getLoginBut().click()
-        loginpage.getValidation()
+        try:
+            self.alert("User or Password is not valid")
+        except NoAlertPresentException:
+            assert "mngr333840" in self.driver.find_element(*LoginPage.mangerid).text
+            self.driver.get_screenshot_as_file("ManagerID.png")
+
 
 
 

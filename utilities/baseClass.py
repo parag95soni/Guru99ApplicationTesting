@@ -18,5 +18,6 @@ class BaseClass:
 
     def alert(self,alertmsg):
         assert self.driver.switch_to.alert.text == alertmsg
+        self.getLog().info(self.driver.switch_to.alert.text)
         self.driver.switch_to.alert.accept()
 
